@@ -15,4 +15,4 @@ Finally, analyse the data either at station-level (`Analyse_data_at_single_stati
 
 Note that soil temperature data are treated separately as there are often large gaps in the soil temp data from met stations.
 
-Retrieval and processing code correct as of Summer 2023.
+Retrieval and processing code correct as of Summer 2023. This code was used in the paper: https://doi.org/10.1002/joc.8456 .

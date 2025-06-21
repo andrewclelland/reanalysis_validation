@@ -1,0 +1,10 @@
+var_name	long_name	standard_name	cell_method
+mn2t	minimum 2 metre temperature	air_temperature	minimum
+mx2t	maximum 2 metre temperature	air_temperature	maximum
+msl	mean sea level pressure		
+t2m	2 metre temperature	air_temperature	
+d2m	2 metre dew point temperature		
+tp	total precipitation		
+sd	snow depth	lwe_thickness_of_surface_snow_amount	
+u10	10 metre u wind component		
+v10	10 metre v wind component		

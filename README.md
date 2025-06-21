@@ -1,7 +1,7 @@
 # reanalysis_validation
 Repository for downloading, processing and validating ERA5 reanalysis data against met station observations.
 
-Use this code to download ERA5 data for a specified polygon from the CDS database, using the `cdsapi` and `iris` packages, and convert from grib to netCDF. North and East co-ordinates are positive; South and West are negative. The code can easily be adapted to download ERA-Interim or ERA5-Land data: just ensure the target variables and download path match those from the CDS database.
+Use this code to download ERA5 data for a specified polygon from the CDS database, using the `cdsapi` and `iris` packages, and convert from grib to netCDF. Co-ordinates below the equator and/or west of the meridian are negative. The code can easily be adapted to download ERA-Interim or ERA5-Land data: just ensure the target variables and download path match those from the CDS database.
 
 Order of processiong (files found in the `ERA5_scripts` folder):
 * Ensure the full list of variables is correct in `era5_variables.txt` and define the target variables to be downloaded in `era5_grib_variable_info.txt`.

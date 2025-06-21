@@ -1,3 +1,7 @@
+"""
+List of variable names to be used downloaded. Remove this line before running.
+"""
+
 var_name	long_name	standard_name	cell_method
 mn2t	minimum 2 metre temperature	air_temperature	minimum
 mx2t	maximum 2 metre temperature	air_temperature	maximum

@@ -1,3 +1,7 @@
+"""
+This code is similar to 'process_era5_hourly_from_grib.py' but also allows for 6-hourly or daily data to be downloaded, as appropriate.
+"""
+
 import os
 import pandas as pd
 import argparse

@@ -3,10 +3,11 @@ Repository for downloading, processing and validating ERA5 reanalysis data again
 
 Use this code to download ERA5 data for a specified polygon from the CDS database, using the `cdsapi` and `iris` packages, and convert from grib to netCDF. North and East co-ordinates are positive; South and West are negative. The code can easily be adapted to download ERA-Interim or ERA5-Land data: just ensure the target variables and download path match those from the CDS database.
 
-Order:
+Order of processiong (files found in the `ERA5_scripts` folder):
 * Ensure the full list of variables is correct in `era5_variables.txt` and define the target variables to be downloaded in `era5_grib_variable_info.txt`.
 * Run the `retrieve_era5_hourly.py` script using the batch command located in `batch_retrieve_and_process_data.sh`.
 * Process the data using `process_era5_hourly_from_grib.py` script using the batch command also located in the shell file.
+* Additional processing options can be found in `process_era5_6-hourly_from_grib.py`.
 
 Then extract the data at a single, specified point, related to the coordinates of the meteorological station. Data will be interpolated to the exact point from the original coarse resolution. Download the meteorological station data separately and store in a csv file.
 

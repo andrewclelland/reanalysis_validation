@@ -6,6 +6,8 @@ This is the shell code to request batch downloads of data from the CDS database,
 Specify the coordinate limits of the polygon in the following order: North latitude - West longitude - South latitude - East longitude.
 
 Ensure the `cdsapi` package is downloaded and setup before running the scripts.
+
+Then use the shell request at the bottom to process the downloaded data.
 """
 
 # retrieve the data for 1979

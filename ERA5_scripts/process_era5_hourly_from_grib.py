@@ -1,3 +1,7 @@
+"""
+Process downloaded data on an hourly level.
+"""
+
 import os
 import pandas as pd
 import argparse

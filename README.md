@@ -13,4 +13,6 @@ Then extract the data at a single, specified point, related to the coordinates o
 
 Finally, analyse the data either at station-level (`Analyse_data_at_single_station.ipynb`) or across all regions and stations (`Analyse_data_all_stations.ipynb`), and make plots.
 
+Note that soil temperature data are treated separately as there are often large gaps in the soil temp data from met stations.
+
 Retrieval and processing code correct as of Summer 2023.

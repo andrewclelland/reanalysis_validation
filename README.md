@@ -12,3 +12,5 @@ Order of processiong (files found in the `ERA5_scripts` folder):
 Then extract the data at a single, specified point, related to the coordinates of the meteorological station. Data will be interpolated to the exact point from the original coarse resolution. Download the meteorological station data separately and store in a csv file.
 
 Finally, analyse the data either at station-level or across all regions and stations, and make plots.
+
+Retrieval and processing code correct as of Summer 2023.

@@ -1,5 +1,13 @@
 #!/bin/sh
 
+"""
+This is the shell code to request batch downloads of data from the CDS database, using the scripts in the same folder.
+
+Specify the coordinate limits of the polygon in the following order: North latitude - West longitude - South latitude - East longitude.
+
+Ensure the `cdsapi` package is downloaded and setup before running the scripts.
+"""
+
 # retrieve the data for 1979
 # soil temperatures
 for year in {1979..2020}; do

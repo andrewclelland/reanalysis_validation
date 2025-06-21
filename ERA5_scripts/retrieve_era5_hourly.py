@@ -1,3 +1,9 @@
+"""
+Code to retrieve the data from the CDS server. Ensure the chosen variables are present in the 'era5_grib_variable_info.txt' file beforehand, and they match those from the whole list in 'era5_variables.txt'.
+
+Also ensure the `cdsapi` package is installed and setup locally beforehand.
+"""
+
 import os
 import argparse
 import cdsapi
